@@ -14,7 +14,7 @@ They are much shorter and cover what you need to know 90% of the time when worki
 
 ```gradle tasks --all```: Show *all* available tasks
 
-```gradle dependencies```: Download dependencies
+```--refresh-dependencies```: Add this option to a gradle command to force re-download dependencies
 
 ```gradle -b anotherfile.gradle taskname```: Run ```taskname``` in ```anotherfile.gradle``` instead of in ```build.gradle```
 
