@@ -13,3 +13,5 @@ apply plugin: 'java'
 repositories {
     mavenCentral()
 }
+
+// TODO: Add junit dependency
